@@ -46,8 +46,8 @@ tests/
 | --- | --- |
 | Tipo de teste | Unitário e BDD |
 | Objetivo do teste | Garantir que o sistema encontre corretamente um restaurante a partir do nome buscado |
-| Link para o arquivo do teste (TDD) |  |
-| Link para o arquivo do teste (BDD) |  |
+| Link para o arquivo do teste (TDD) | https://github.com/angelofonseca/LocalEats-17/blob/main/tests/test_search.py |
+| Link para o arquivo do teste (BDD) | https://github.com/angelofonseca/LocalEats-17/blob/main/tests/test_busca_nome_bdd.py |
 
 ---
 
@@ -66,9 +66,9 @@ tests/
 
 | Indicador | Valor |
 |------------|---------|
-| Quantidade de testes executados | 4 |
-| Quantidade de testes aprovados | 4 |
-| Quantidade de testes com falha | 0 |
+| Quantidade de testes executados | 3 |
+| Quantidade de testes aprovados | 3 |
+| Quantidade de testes com falha | 1 |
 | Status final do pipeline | Sucesso |
 
 Cobertura de search.py: 100%.
@@ -79,6 +79,6 @@ Cobertura de search.py: 100%.
 
 | Item | Descrição |
 |--------|--------|
-| Título do defeito | Favoritar restaurante não adiciona o item à lista |
-| Severidade | Alta |
-| Link da Issue | |
+| Título do defeito | Quando busca por nome com espaços extras nao encontra o restaurante
+| Severidade | Média |
+| Link da Issue | https://github.com/angelofonseca/LocalEats-17/issues/3 |

@@ -17,6 +17,7 @@
 ```
 tests/
 │   ├── test_search.py
+│   ├── test_search_regressao.py
 │   ├── test_busca_nome_bdd.py
 │   └── features/
 │       └── busca_nome.feature
@@ -66,9 +67,9 @@ tests/
 
 | Indicador | Valor |
 |------------|---------|
-| Quantidade de testes executados | 3 |
-| Quantidade de testes aprovados | 3 |
-| Quantidade de testes com falha | 1 |
+| Quantidade de testes executados | 4 |
+| Quantidade de testes aprovados | 4 |
+| Quantidade de testes com falha | 0 |
 | Status final do pipeline | Sucesso |
 
 Cobertura de search.py: 100%.
@@ -82,3 +83,4 @@ Cobertura de search.py: 100%.
 | Título do defeito | Quando busca por nome com espaços extras nao encontra o restaurante
 | Severidade | Média |
 | Link da Issue | https://github.com/angelofonseca/LocalEats-17/issues/3 |
+Teste foi criado buscando os restaurantes com espaços a mais na string, e o assert retorna vazio porque nao encontra os restaurantes.
